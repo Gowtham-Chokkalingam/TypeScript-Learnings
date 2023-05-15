@@ -23,7 +23,19 @@ function addTwo(num: number) {
 function getUpper(str: string) {
   return str.toUpperCase();
 }
+
+function signUpUser(name: string, email: string, isPaid: boolean) {
+  return true;
+}
+// Passing Default values in the args
+let loginUser = (name: string, email: string, isPaid: boolean = false) => {};
+
 addTwo(4);
 getUpper("gowtham");
+
+getUpper(2);
+
+signUpUser("Gowtham", "Hello", true);
+loginUser("Gowtham", "gamil.com");
 
 export {};
