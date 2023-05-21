@@ -33,9 +33,26 @@ let loginUser = (name: string, email: string, isPaid: boolean = false) => {};
 addTwo(4);
 getUpper("gowtham");
 
-getUpper(2);
-
 signUpUser("Gowtham", "Hello", true);
-loginUser("Gowtham", "gamil.com");
+loginUser("Gowtham", "gmail.com");
+
+// to return the most accurate value from the function
+
+function addTwo1(num: number): number {
+  return num + 2;
+}
+
+// Dealing with arrow function
+
+const getAddTwo = (str: string): string => {
+  return "Somthing";
+};
+addTwo1(4);
+
+// Case when the function return nothing
+
+function retrunNothing(msg: string): void {
+  console.log(msg);
+}
 
 export {};
